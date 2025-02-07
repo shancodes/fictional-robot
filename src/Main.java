@@ -14,10 +14,18 @@ public class Main {
 
 
             //--------------Data Structures
-            ReverseLinkedList reverseLinkedList = new ReverseLinkedList();
+           /* ReverseLinkedList reverseLinkedList = new ReverseLinkedList();
             int[] arr = { 1, 2, 3, 4 };
             ListNode list1 = BuildlinkedList(arr);
             ListNode res = reverseLinkedList.reverseList(list1);
+            PrintList(res);*/
+
+            MergeTwoSortedLinkedLists mergeTwoSortedLinkedLists = new MergeTwoSortedLinkedLists();
+            int[] arr1 = {1,2,3};
+            int[] arr2 = {1,4,5,6};
+            ListNode list1 = BuildlinkedList(arr1);
+            ListNode list2 = BuildlinkedList(arr2);
+            ListNode res = mergeTwoSortedLinkedLists.mergeTwoLists(list1,list2);
             PrintList(res);
 
 
