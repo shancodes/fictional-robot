@@ -64,9 +64,15 @@ public class Main {
         three.threeSum(arr);*/
 
         //-------ContainerWithMostWater
-        int[] arr = {1,7,2,5,4,7,3,6};
+        /*int[] arr = {1,7,2,5,4,7,3,6};
         ContainerWithMostWater area = new ContainerWithMostWater();
         int result = area.maxArea(arr);
+        System.out.println(result);*/
+
+        //---------Find Minimum In Rotated Sorted Array
+        int[] arr = {3,4,5,6,1,2};
+        FindMinimumInRotatedSortingArray minelement = new FindMinimumInRotatedSortingArray();
+        int result = minelement.findMin(arr);
         System.out.println(result);
 
 
