@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.TreeSet;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -50,11 +52,22 @@ public class Main {
 
 
     //------------LongestRepeatingCharacterReplacement
-    String s = "XYYXYZ";
+   /* String s = "XYYXYZ";
     int k = 2;
     LongestRepeatingCharacterReplacement subs = new LongestRepeatingCharacterReplacement();
     int result = subs.characterReplacement(s,k);
-    System.out.println(result);
+    System.out.println(result);*/
+
+        //-------------ThreeSum
+       /* int[] arr = {5,0,1,2,-1,-4};
+        ThreeSum three = new ThreeSum();
+        three.threeSum(arr);*/
+
+        //-------ContainerWithMostWater
+        int[] arr = {1,7,2,5,4,7,3,6};
+        ContainerWithMostWater area = new ContainerWithMostWater();
+        int result = area.maxArea(arr);
+        System.out.println(result);
 
 
 
@@ -63,10 +76,7 @@ public class Main {
 
 
 
-
-
-
-            //--------------Data Structures
+        //--------------Data Structures
            /* ReverseLinkedList reverseLinkedList = new ReverseLinkedList();
             int[] arr = { 1, 2, 3, 4 };
             ListNode list1 = BuildlinkedList(arr);
@@ -82,10 +92,9 @@ public class Main {
             PrintList(res);*/
 
 
+    }
 
 
-
-        }
 
     //Building LinkedList
     public static ListNode BuildlinkedList(int[] arr)
