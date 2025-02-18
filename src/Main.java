@@ -70,10 +70,23 @@ public class Main {
         System.out.println(result);*/
 
         //---------Find Minimum In Rotated Sorted Array
-        int[] arr = {3,4,5,6,1,2};
+       /* int[] arr = {3,4,5,6,1,2};
         FindMinimumInRotatedSortingArray minelement = new FindMinimumInRotatedSortingArray();
         int result = minelement.findMin(arr);
-        System.out.println(result);
+        System.out.println(result);*/
+
+        //--------Search In Rotated Sorted Array
+//        int[] arr = {4,5,6,7,0,1,2};
+//        int target = 0;
+//        SearchInRotatedSortedArray searchelement = new SearchInRotatedSortedArray();
+//        int result = searchelement.search(arr,target);
+//        System.out.println(result);
+
+        //-------Island Problem
+        char[][] grid = { {'0','1','1','1','0'},{'0','1','0','1','0'},{'1','1','0','0','0'},{'0','0','1','0','1'}};
+        IslandProblem island = new IslandProblem();
+        int number = island.numIslands(grid);
+        System.out.println(number);
 
 
 
