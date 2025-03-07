@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.TreeSet;
+import java.util.concurrent.ConcurrentHashMap;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -83,10 +84,54 @@ public class Main {
 //        System.out.println(result);
 
         //-------Island Problem
-        char[][] grid = { {'0','1','1','1','0'},{'0','1','0','1','0'},{'1','1','0','0','0'},{'0','0','1','0','1'}};
+        /*char[][] grid = { {'0','1','1','1','0'},{'0','1','0','1','0'},{'1','1','0','0','0'},{'0','0','1','0','1'}};
         IslandProblem island = new IslandProblem();
         int number = island.numIslands(grid);
-        System.out.println(number);
+        System.out.println(number);*/
+
+        //-------Concurrent Hash Map
+//        ConcurrentHashMap<String, Integer> map = new ConcurrentHashMap<>();
+//
+//        // Put elements
+//        map.put("Apple", 10);
+//        map.put("Banana", 20);
+//
+//        // Get element
+//        System.out.println("Apple count: " + map.get("Apple"));
+//
+//        // Concurrent update
+//        map.computeIfPresent("Apple", (key, value) -> value + 5);
+//        System.out.println("Updated Apple count: " + map.get("Apple"));
+//
+//        // Iterating over the map (Safe for concurrent access)
+//        map.forEach((key, value) -> System.out.println(key + " -> " + value));
+
+        //----Two Sum
+       /* int[] nums = {3,4,5,6};
+        int target = 7;
+        TwoSum sumtwo = new TwoSum();
+        sumtwo.TwoSum(nums,target);*/
+
+
+        //----Combination Sum
+       /* int[] nums = {2,5,6,9};
+        int target = 9;
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        CombinationSum cs = new CombinationSum();
+        res = cs.combinationSum(nums,target);*/
+
+        //-------Fibonacci
+       /* int n = 10;
+        Fibonacci fib = new Fibonacci();
+        fib.findFib(n);*/
+
+
+        //------Non Overlapping Intervals
+        int[][] interval = {{1,2},{2,3},{3,4},{4,5},{1,2}};
+        NonOverlappingIntervals inter = new NonOverlappingIntervals();
+        inter.eraseOverlapIntervals(interval);
+
+
 
 
 
