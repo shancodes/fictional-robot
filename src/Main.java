@@ -127,9 +127,19 @@ public class Main {
 
 
         //------Non Overlapping Intervals
-        int[][] interval = {{1,2},{2,3},{3,4},{4,5},{1,2}};
+       /* int[][] interval = {{1,2},{2,3},{3,4},{4,5},{1,2}};
         NonOverlappingIntervals inter = new NonOverlappingIntervals();
-        inter.eraseOverlapIntervals(interval);
+        inter.eraseOverlapIntervals(interval);*/
+
+        //-----Meeting room
+        List<Interval> intervals = new ArrayList<>() ;
+        intervals.add(new Interval(5,8));
+        intervals.add(new Interval(9,15));
+        intervals.add(new Interval(1,4));
+        MeetingRoom mr = new MeetingRoom();
+        mr.canAttendMeetings(intervals);
+
+
 
 
 
