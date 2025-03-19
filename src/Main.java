@@ -132,12 +132,26 @@ public class Main {
         inter.eraseOverlapIntervals(interval);*/
 
         //-----Meeting room
-        List<Interval> intervals = new ArrayList<>() ;
+       /* List<Interval> intervals = new ArrayList<>() ;
         intervals.add(new Interval(5,8));
         intervals.add(new Interval(9,15));
         intervals.add(new Interval(1,4));
         MeetingRoom mr = new MeetingRoom();
-        mr.canAttendMeetings(intervals);
+        mr.canAttendMeetings(intervals);*/
+
+        //----------Climbing Stairs
+       /* ClimbingStairs stairs = new ClimbingStairs();
+        int n = 4;
+        int res = stairs.climbStairs(n);
+        System.out.println(res);*/
+
+        //-------House Robbing
+        HouseRobber robber = new HouseRobber();
+        int[] nums = { 2, 9, 8, 3, 6};
+        int res = robber.rob(nums);
+        System.out.println(res);
+
+
 
 
 
